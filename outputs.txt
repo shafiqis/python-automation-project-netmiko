@@ -1,0 +1,19 @@
+PS C:\Users\shafi\Desktop\python learning\01_Paramiko\shafiq> & C:/Users/shafi/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/shafi/Desktop/python learning/01_Paramiko/print333333.py"
+Connected successfully to: 192.168.96.132
+Configuration output:
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+csr1000v-R1(config)#interface loopback1001
+csr1000v-R1(config-if)#ip address 11.1.1.10 255.255.255.0
+csr1000v-R1(config-if)#no shutdown
+csr1000v-R1(config-if)#end
+csr1000v-R1#
+Verification output:
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       192.168.96.132  YES NVRAM  up                    up
+GigabitEthernet2       unassigned      YES NVRAM  down                  down
+GigabitEthernet3       unassigned      YES NVRAM  down                  down
+GigabitEthernet4       unassigned      YES NVRAM  down                  down
+Loopback1001           11.1.1.10       YES manual up                    up
+Disconnected successfully
+PS C:\Users\shafi\Desktop\python learning\01_Paramiko\shafiq> 
